@@ -5,6 +5,7 @@ import {Provider as PaperProvider} from 'react-native-paper';
 // import MainMenu from '../features/main_menu/index';
 import Dashboard from '../features/dashboard/navigation';
 import Camera from '../features/camera/navigation';
+import Location from '../features/location/navigation';
 import {enableScreens} from 'react-native-screens';
 
 enableScreens(true);
@@ -20,6 +21,7 @@ function RootStackScreens() {
       {Object.entries({
         ...Dashboard,
         ...Camera,
+        ...Location,
       }).map(([name, component], id) => (
         <Stack.Screen
           key={id}

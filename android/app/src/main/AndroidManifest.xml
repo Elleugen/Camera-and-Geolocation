@@ -3,6 +3,12 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <meta-data
+     android:name="com.google.android.geo.API_KEY"
+     android:value="AIzaSyAzYPHkBPLGlmDt-sJoVcQo_vm9kESIlFo"/>
+     <!-- android:value="AIzaSyAaG_cExu9vSqvdYq5U0pX0P6xHEsoaiig"/> -->
+     <!-- android:value="AIzaSyCGfqhUGO3oByhUWUZEbzXUL1RRNWYkES0"/> -->
+     <!-- android:value="Your Google maps API Key Here"/> -->
 
     <!-- optionally, if you want to record audio: -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />

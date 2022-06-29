@@ -70,7 +70,7 @@ function DashboardScreen({currentDashboard, getDashboard}) {
             </TouchableOpacity>
             <TouchableOpacity
               onPress={() => {
-                navigation.navigate('Camera.CameraScreen');
+                navigation.navigate('Location.LocationScreen');
               }}>
               <Component.ButtonLoc></Component.ButtonLoc>
             </TouchableOpacity>

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">mybook</string>
+    <string name="app_name">Cam and Geo</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">(AIzaSyCGfqhUGO3oByhUWUZEbzXUL1RRNWYkES0)</string>
 </resources>
